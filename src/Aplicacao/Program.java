@@ -1,8 +1,12 @@
 package Aplicacao;
 
+import Tabuleiro.Posicao;
+
 public class Program {
 	
 	public static void main (String[] args) {
-		System.out.println("Ola Mundo !");
-	}
+	
+		Posicao  pos = new Posicao(3, 5);
+		System.out.println(pos);
+  }
 }
